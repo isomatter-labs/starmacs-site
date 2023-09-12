@@ -1,0 +1,36 @@
+---
+title: Welcome to Starmacs
+description: A minimal, composable and expandable Emacs configuration.
+template: splash
+hero:
+  tagline: A hackable text editor for the nth century!
+  image:
+    file: ../../assets/emacs.png
+  actions:
+    - text: Setup Guide
+      link: /guides/install/
+      icon: right-arrow
+      variant: primary
+    - text: Read the source code
+      link: https://github.com/isomatter-labs/starmacs
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+<CardGrid stagger>
+	<Card title="Give it a try" icon="rocket">
+		Head to [the install guide](/guides/install) to try out Starmacs yourself.
+	</Card>
+	<Card title="Customize it to your hearts content" icon="setting">
+		Add your own customizations and tweaks to the `/usr` directory to make Starmacs your own.
+	</Card>
+	<Card title="Help us make Starmacs better" icon="github">
+		Got an idea? Open an issue or PR!
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Want to dive deeper? Read the [manual](https://www.gnu.org/software/emacs/manual/)!
+	</Card>
+</CardGrid>
